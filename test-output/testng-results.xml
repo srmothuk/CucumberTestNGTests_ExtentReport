@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BNPPF Test Suite" duration-ms="987" started-at="2018-06-27T20:11:05Z" finished-at="2018-06-27T20:11:06Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@f6c48ac]" name="feature" class="TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="BNPPF Test Automation" duration-ms="987" started-at="2018-06-27T20:11:05Z" finished-at="2018-06-27T20:11:06Z">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@f6c48ac]" name="setUpClass" is-config="true" duration-ms="213" started-at="2018-06-28T01:41:05Z" finished-at="2018-06-28T01:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@f6c48ac]" name="feature" duration-ms="357" started-at="2018-06-28T01:41:05Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-06-28T01:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edit Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@f6c48ac]" name="feature" duration-ms="4" started-at="2018-06-28T01:41:06Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-06-28T01:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@f6c48ac]" name="feature" duration-ms="20" started-at="2018-06-28T01:41:06Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-06-28T01:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Title of your feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@f6c48ac]" name="tearDownClass" is-config="true" duration-ms="299" started-at="2018-06-28T01:41:06Z" finished-at="2018-06-28T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- BNPPF Test Automation -->
+  </suite> <!-- BNPPF Test Suite -->
+</testng-results>
